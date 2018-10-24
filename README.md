@@ -1,4 +1,4 @@
 # ECE3110-Engineering_Project
 
-QT
+QT, 
 Python with Pyside2
