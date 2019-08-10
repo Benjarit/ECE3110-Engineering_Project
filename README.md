@@ -5,3 +5,5 @@ Python with Pyside2,
 Respberry Pi model 3B+,
 Temperature Sensors,
 Light Sensors,
+
+![](Capture.JPG)
