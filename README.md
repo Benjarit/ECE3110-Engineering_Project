@@ -8,8 +8,8 @@
 - Respberry Pi model 3B+
 - Temperature Sensor
 - Humidity Sensor
-- Light Sensor
 - Air Quality Sensor
+- Relay/Light Bulb
 
 ## System Architecture
 
