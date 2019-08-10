@@ -1,4 +1,4 @@
-# ECE3110-Engineering_Project
+# Home Automation Hub for Monitoring and Controlling Living Conditions
 
 > QT, 
 > Python with Pyside2,
