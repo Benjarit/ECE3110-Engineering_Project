@@ -10,6 +10,7 @@
 - Humidity Sensor
 - Air Quality Sensor
 - Relay/Light Bulb
+- Circuit Board
 
 ## System Architecture
 
