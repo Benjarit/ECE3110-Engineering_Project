@@ -6,4 +6,9 @@ Respberry Pi model 3B+,
 Temperature Sensors,
 Light Sensors,
 
+
+
+
+
+
 ![](Agritecture.png)
