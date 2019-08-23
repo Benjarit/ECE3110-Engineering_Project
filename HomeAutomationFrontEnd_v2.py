@@ -208,7 +208,6 @@ class Ui_homeApp(object):
         self.statusbar = QtGui.QStatusBar(homeApp)
         self.statusbar.setObjectName("statusbar")
         homeApp.setStatusBar(self.statusbar)
-
         self.retranslateUi(homeApp)
         QtCore.QMetaObject.connectSlotsByName(homeApp)
 
