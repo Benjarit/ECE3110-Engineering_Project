@@ -240,20 +240,15 @@ class Ui_homeApp(object):
         sensors.RedLight(0)
         print("Turned off red light")
     def refreshText(self):
-
         time = QtCore.QTime.currentTime().toString()
         print("Time: " + time)
-
         temp_sensor = "%.2f " % sensors.readTemperature()
         humidity_sensor = "%.2f " % sensors.readHumidity()
-
         airQuality = sensors.readAirQuality()
-
         self.temp_sensor.setText(str(temp_sensor))
         self.humidity.setText(str(humidity_sensor)+"%")
         self.tvocs.setText(str(airQuality[2]))
         self.eco2.setText(str(airQuality[1]))
-
 
 def main():
     import sys
@@ -262,14 +257,11 @@ def main():
     ui = Ui_homeApp()
     ui.setupUi(MainWindow)
     MainWindow.show()
-
-
     timer=QtCore.QTimer()
     timer.timeout.connect(ui.refreshText)
     timer.start(1000)
-
     sys.exit(app.exec_())
-
+    
 def generateRandowNumber():
     return random.randint(1,101)
 
