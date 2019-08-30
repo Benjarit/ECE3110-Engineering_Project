@@ -12,6 +12,10 @@
 - Relay/Light Bulb
 - Circuit Board
 
+###### Important Files:
+1. HomeAutomationFrontEnd_v2.py ( Front-end )
+2. sensors.py ( Model )
+
 ## System Architecture
 
 ![](Agritecture.png)
